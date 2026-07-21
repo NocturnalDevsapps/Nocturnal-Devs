@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Read how Nocturnal Devs handles local game progress, optional Firebase Analytics, retention and privacy choices for Gridlock Escape on iOS and Android.">
+    <meta name="description" content="Read how Gridlock Escape handles local progress, age protections, Firebase Analytics, non-personalized Google AdMob advertising, retention, and privacy choices on iOS and Android.">
     <title>Gridlock Escape Privacy Policy | Nocturnal Devs</title>
     <meta name="theme-color" content="#05070b">
     <link rel="icon" href="/assets/projects/gridlock-escape/app-icon.png" type="image/png">
@@ -20,7 +20,7 @@
     {
       "@context":"https://schema.org",
       "@graph":[
-        {"@type":"WebPage","@id":"https://www.nocturnaldevs.com/privacy-policy/#webpage","url":"https://www.nocturnaldevs.com/privacy-policy/","name":"Gridlock Escape Privacy Policy | Nocturnal Devs","dateModified":"2026-07-19","about":{"@id":"https://www.nocturnaldevs.com/projects/gridlock-escape/#app"},"isPartOf":{"@id":"https://www.nocturnaldevs.com/#website"}},
+        {"@type":"WebPage","@id":"https://www.nocturnaldevs.com/privacy-policy/#webpage","url":"https://www.nocturnaldevs.com/privacy-policy/","name":"Gridlock Escape Privacy Policy | Nocturnal Devs","dateModified":"2026-07-21","about":{"@id":"https://www.nocturnaldevs.com/projects/gridlock-escape/#app"},"isPartOf":{"@id":"https://www.nocturnaldevs.com/#website"}},
         {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://www.nocturnaldevs.com/"},{"@type":"ListItem","position":2,"name":"Gridlock Escape","item":"https://www.nocturnaldevs.com/projects/gridlock-escape/"},{"@type":"ListItem","position":3,"name":"Privacy Policy","item":"https://www.nocturnaldevs.com/privacy-policy/"}]}
       ]
     }
@@ -42,81 +42,82 @@
             <ol class="breadcrumb" aria-label="Breadcrumb"><li><a href="/">Home</a></li><li><a href="/projects/gridlock-escape/">Gridlock Escape</a></li><li aria-current="page">Privacy Policy</li></ol>
             <p class="eyebrow">Gridlock Escape / Privacy</p>
             <h1 class="legal-title">Gridlock Escape Privacy Policy</h1>
-            <p class="legal-meta">Effective and last updated: July 19, 2026</p>
+            <p class="legal-meta">Effective and last updated: July 21, 2026</p>
 
             <div class="legal-summary">
                 <strong>Privacy at a glance</strong>
-                <p>Gridlock Escape does not require an account and does not ask for your name, email address, precise location, contacts, photos, camera, or microphone. Game progress stays on your device. Optional analytics help Nocturnal Devs understand and improve the game.</p>
+                <p>Gridlock Escape does not require an account and does not ask for your name, email address, exact birth date, precise location, contacts, photos, camera, or microphone. Game progress stays on your device. Players under 13 are blocked before Google services start; Analytics is disabled for ages 13–15 and enabled for ages 16 and older. Google AdMob ads are requested as non-personalized ads.</p>
             </div>
 
             <div class="legal-content">
                 <section class="legal-section">
                     <h2>1. Who this policy covers</h2>
-                    <p>This Privacy Policy explains how Nocturnal Devs ("Nocturnal Devs," "we," "us," or "our") handles information when you use the Gridlock Escape mobile application on iOS or Android (the "App"). It applies only to Gridlock Escape and not to unrelated client projects or third-party websites.</p>
+                    <p>This Privacy Policy explains how Nocturnal Devs ("Nocturnal Devs," "we," "us," or "our") handles information when you use the Gridlock Escape mobile application on iOS or Android (the "App"). It applies only to Gridlock Escape and not to unrelated projects or third-party websites. Gridlock Escape has no real-money purchases or subscriptions; its shop uses virtual coins earned in the game.</p>
                 </section>
 
                 <section class="legal-section">
-                    <h2>2. Information handled by the App</h2>
-                    <h3>Game data stored locally</h3>
-                    <p>The App stores level progress, active puzzle state, best move counts, coin balance, daily reward status, tutorial status, and preferences such as sound, music, haptics, reduced motion, analytics choice, and future ad preference in local app storage on your device. The local storage itself is not uploaded. If you allow Analytics, limited measurements derived from play, such as level and move counts, are sent as described below.</p>
-
-                    <h3>Optional Firebase Analytics data</h3>
-                    <p>If you allow analytics, the App uses Google Analytics for Firebase. Google may automatically process:</p>
+                    <h2>2. Age screen and protections for younger players</h2>
+                    <p>On first launch, the App asks you to select <strong>under 13</strong>, <strong>13–15</strong>, or <strong>16 or older</strong>. It does not ask for an exact birth date. The selection is stored locally so the App can apply the appropriate Analytics and advertising settings, and it is not logged as a Firebase Analytics event.</p>
                     <ul>
-                        <li>a randomly generated app-instance identifier;</li>
-                        <li>app and device information such as platform, app version, device model, operating-system version, language, and screen or session information;</li>
-                        <li>general location derived from a masked IP address, not precise GPS location;</li>
-                        <li>app lifecycle information such as first open, sessions, and screen views;</li>
-                        <li>gameplay events such as opening the game, starting or completing a level, move counts, hints, undo or restart use, reward interactions, and changes to the future ad preference; and</li>
-                        <li>on Android, the device Advertising ID when it is available to the Analytics SDK.</li>
+                        <li><strong>Under 13:</strong> access is blocked before Google Mobile Ads or Firebase Analytics initializes.</li>
+                        <li><strong>Ages 13–15:</strong> the game is available; Firebase Analytics is disabled; Google receives child-directed and under-age-of-consent treatment signals; and ad creatives are capped at a G rating.</li>
+                        <li><strong>Ages 16 and older:</strong> Firebase Analytics is enabled automatically. Google User Messaging Platform manages legally required advertising consent notices and privacy choices.</li>
                     </ul>
-                    <p>We do not set a user ID, create a player account, or send your name, email address, phone number, messages, or other user-entered content to Firebase Analytics.</p>
+                    <p>You can return to the age screen from <strong>Settings &gt; Privacy &amp; data &gt; Age range</strong>.</p>
                 </section>
 
                 <section class="legal-section">
-                    <h2>3. How we use information</h2>
-                    <p>We use local game data to save your progress and preferences. If you allow analytics, we use Analytics data to understand which platforms and app versions are being used, measure engagement with levels and features, identify usability problems, balance gameplay, and improve reliability and design.</p>
-                    <p>We do not sell or rent personal information. We do not use Gridlock Escape Analytics data to make decisions about employment, credit, insurance, housing, or other sensitive eligibility matters.</p>
+                    <h2>3. Information stored on your device</h2>
+                    <p>The App stores your selected age band, completed and unlocked levels, current puzzle state, move counts, best scores, virtual coins, hints, unlocked and equipped cosmetic items, achievements, escape streaks, daily-puzzle status, tutorial status, language, sound, music, haptics, reduced-motion, vehicle-pattern, high-contrast, and text-size settings in app-local storage or preferences.</p>
+                    <p>We use this information to operate the game, restore progress, apply accessibility choices, award in-game items, and provide the daily puzzle. The complete save file is not uploaded to a Nocturnal Devs server.</p>
                 </section>
 
                 <section class="legal-section">
-                    <h2>4. Analytics choice and controls</h2>
-                    <p>The App asks whether you want to allow optional analytics. Analytics remains disabled unless you choose to allow it. You can change your choice at any time under <strong>Settings &gt; Privacy &amp; data</strong>. Turning analytics off stops future Analytics collection and resets the App's current local Analytics identifier.</p>
-                    <p>You can erase locally saved gameplay data through <strong>Settings &gt; Reset progress</strong>. Uninstalling the App also removes its local game data, subject to your device's backup and restore settings.</p>
+                    <h2>4. Firebase Analytics for players ages 16 and older</h2>
+                    <p>For players who select <strong>16 or older</strong>, the App uses Google Analytics for Firebase to understand game use and improve reliability, balance, accessibility, and level design. Analytics is enabled automatically for this age range; the App does not provide a separate Analytics switch. Analytics remains disabled for ages 13–15.</p>
+                    <p>Analytics information may include a randomly generated app-instance identifier; app opens, sessions and screen views; app version, device model and operating-system information; coarse location derived by Google from an IP address; gameplay interactions such as level starts and completions, move counts, hints, rewards, daily-puzzle results, streaks, achievements, virtual-coin shop selections and settings changes; and diagnostic, performance and advertising-measurement events supplied by the integrated Google SDKs.</p>
+                    <p>The App does not set a Firebase user ID and does not send a name, email address, phone number, exact location, free-form text, or complete save file to Firebase Analytics. The Android App removes access to the Android Advertising ID. The iOS App uses Firebase Analytics Core without its advertising-identity support component. Analytics consent for ad storage, ad user data, and ad personalization is denied in the App.</p>
                 </section>
 
                 <section class="legal-section">
-                    <h2>5. Service providers and disclosures</h2>
-                    <p>If you allow analytics, Google LLC and its subprocessors process Analytics data to provide Firebase and Google Analytics services to us. Google states that Firebase data is encrypted in transit. Learn more from Google's <a href="https://firebase.google.com/support/privacy/" rel="noopener noreferrer">Firebase privacy and security information</a> and <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Privacy Policy</a>.</p>
-                    <p>We may disclose information if reasonably necessary to comply with law, protect users or the public, investigate fraud or security incidents, enforce our rights, or complete a merger, financing, acquisition, or sale of business assets. Any successor would remain subject to this policy for information collected under it unless you are notified otherwise.</p>
+                    <h2>5. Advertising and consent management</h2>
+                    <p>The App uses Google AdMob for a banner at the bottom of the game, optional rewarded ads for hints or bonus virtual coins, and interstitials after every second campaign clear beginning after campaign level 4.</p>
+                    <p>Every ad request is explicitly non-personalized, and the Google Mobile Ads publisher first-party ID is disabled before the SDK initializes. The App does not request Apple's App Tracking Transparency authorization and does not use the Android Advertising ID. Google Mobile Ads may still process an IP address, coarse location inferred from the IP address, app and ad interactions, diagnostics, performance information, and device or app identifiers needed to deliver, measure, secure, and prevent fraud in the ad service.</p>
+                    <p>For ages 13–15, the App additionally requests Google's child-directed treatment, marks the player as under the age of consent, limits ads to G-rated creatives, and disables Firebase Analytics. Google User Messaging Platform checks whether a consent message or privacy-options entry point is legally required. When required, <strong>Settings &gt; Privacy &amp; data &gt; Ad privacy choices</strong> provides that entry point.</p>
+                    <h3>Test ads</h3>
+                    <p>The current release uses Google's sample application and ad-unit identifiers, which display test ads. These may later be replaced with Nocturnal Devs production AdMob identifiers without changing the categories of information described here. Any new mediation partner or materially different ad behavior requires a new privacy review.</p>
                 </section>
 
                 <section class="legal-section">
-                    <h2>6. Advertising</h2>
-                    <p>No advertising network is currently integrated into Gridlock Escape. A local ad preference may appear in the App for planned features, but it is not presently sent to an advertising provider. If advertising is introduced, we will update this policy and the applicable App Store and Google Play disclosures before using information for that purpose.</p>
+                    <h2>6. How information is used and shared</h2>
+                    <p>We use local game information to operate the App and Analytics information to measure feature use, understand difficulty, diagnose reliability issues, and improve the game. We do not sell or rent personal information.</p>
+                    <p>Google LLC and its subprocessors process advertising, consent and—for ages 16 and older—Firebase Analytics information to provide those services. We may also disclose information when reasonably necessary to comply with law, legal process, enforceable requests, prevent fraud or abuse, protect rights and safety, or complete a merger, acquisition, financing, reorganization, or asset sale. The App does not integrate a separate ad-mediation SDK, social login, payment SDK, or cloud-save provider.</p>
+                    <p>Learn more from Google's <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Privacy Policy</a>, <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer">partner-sites information</a>, and <a href="https://firebase.google.com/support/privacy/" rel="noopener noreferrer">Firebase privacy and security information</a>.</p>
                 </section>
 
                 <section class="legal-section">
                     <h2>7. Retention and deletion</h2>
-                    <p>Local game data remains on your device until you reset progress, clear the App's storage, or uninstall the App. If you allow analytics, we retain event-level Analytics data for no longer than 14 months unless a shorter period is required, while aggregated or de-identified reporting may be retained longer. Google may retain information as described in its terms and policies.</p>
-                    <p>Because the App has no accounts and we do not attach Analytics data to your name or contact details, we generally cannot identify a particular Analytics record as belonging to you. You may still contact us with an access or deletion request, and we will use available tools to respond as required by applicable law.</p>
+                    <p>The age band, progress and settings remain on the device until changed, reset, cleared, or the App is deleted. <strong>Reset progress</strong> removes levels, coins, records, achievements, unlocked items, and current puzzle data while retaining language, audio, haptic, accessibility, text-size, and age settings. To remove all local information, clear the App's storage/data on Android or use <strong>Delete App</strong> on iOS.</p>
+                    <p>Google retains Analytics and advertising information according to its product settings, retention controls, and policies. Changing the age range to 13–15 disables future Firebase Analytics collection and resets device-side Analytics data, but may not erase information already processed in aggregate or pseudonymous records.</p>
+                    <p>Because there is no account or Firebase user ID, we may be unable to identify a particular person in pseudonymous provider records. You may contact us about applicable access, correction, objection, or deletion rights; we will respond as required by law and explain if information cannot reasonably be verified or located.</p>
                 </section>
 
                 <section class="legal-section">
-                    <h2>8. International processing and security</h2>
-                    <p>Nocturnal Devs is based in Canada. Google and its subprocessors may process Analytics data in Canada, the United States, and other countries where they operate. Those countries may have privacy laws different from the laws where you live.</p>
-                    <p>We use reasonable administrative, technical, and organizational safeguards appropriate to the information we handle. No transmission or storage system can be guaranteed completely secure.</p>
+                    <h2>8. Security and international processing</h2>
+                    <p>Local progress is stored in the operating system's app sandbox. Google states that Mobile Ads and Firebase Analytics SDK information is encrypted in transit. No storage or transmission method is completely secure.</p>
+                    <p>Nocturnal Devs is based in Canada. Google and its service infrastructure may process information outside your country, including in Canada, the United States, and other countries where they operate. Such processing is governed by Google's terms, privacy policy, and applicable transfer safeguards.</p>
                 </section>
 
                 <section class="legal-section">
-                    <h2>9. Your privacy rights</h2>
-                    <p>Depending on where you live, you may have rights to request access to, correction of, or deletion of personal information, to withdraw consent, or to complain to a privacy regulator. We will not discriminate against you for exercising an applicable privacy right.</p>
-                    <p>The fastest controls are available directly in the App. For any other request, contact us using the details below. We may need enough information to verify and respond to the request, but we will not ask for more than reasonably necessary.</p>
+                    <h2>9. Children and teens</h2>
+                    <p>Gridlock Escape is intended for players <strong>13 and older</strong>. Players who select under 13 are blocked before ads or Analytics start. For ages 13–15, Firebase Analytics is disabled and the child-protective ad settings described above are applied.</p>
+                    <p>The game has no account creation, chat, public profiles, user-generated content, precise-location request, contact access, camera, microphone, or real-money purchases. A parent or guardian who believes a child under 13 sent personal information in a support message can contact us for review and deletion where appropriate.</p>
                 </section>
 
                 <section class="legal-section">
-                    <h2>10. Children's privacy</h2>
-                    <p>Gridlock Escape is a general-audience puzzle game and is not directed to children under 13. The App does not offer accounts or ask users to submit names or contact information. If you are a parent or guardian and believe a child has provided personal information to us, contact us so we can investigate and take appropriate action.</p>
+                    <h2>10. Your choices and privacy rights</h2>
+                    <p>You can change the stored age range under <strong>Settings &gt; Privacy &amp; data &gt; Age range</strong>, manage Google advertising privacy choices under <strong>Ad privacy choices</strong> when required in your region, reset gameplay progress, clear all app-local data using platform controls, or contact us about rights available in your jurisdiction.</p>
+                    <p>Gridlock Escape does not provide an Analytics opt-out for users who select 16 or older. Clearing or deleting the App stops future collection from that installation but does not necessarily delete information already processed by Google. Depending on where you live, you may have rights to request access to, correction of, or deletion of personal information, to object or withdraw consent where applicable, or to complain to a regulator. We will not discriminate against you for exercising an applicable right.</p>
                 </section>
 
                 <section class="legal-section">
